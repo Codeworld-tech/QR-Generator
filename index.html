@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Generator</title>
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+<div class="backsupport">
+    <div class="container">
+        <h3>Enter your text or Url</h3>
+        <input class="inp" type="text" placeholder="Text Or Url">
+        <div class="Img-box hide">
+            <img src="" id="qrImg">
+        </div>
+        <button class="qrBtn" onclick="generateQR()">Generate QR</button>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
